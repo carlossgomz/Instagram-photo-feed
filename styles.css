@@ -1,13 +1,32 @@
-
-.navbar-brand {color: rgb(116, 111, 111);
-    font-weight: 700;
+body {
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.fa-instagram {
-    font-weight: 200;
+:root {
+    --primary-color: rgb(224, 223, 223);
+    --secondary-color : rgb(75, 75, 75);
+    --verde-claro : rgb(101, 194, 101);
 }
 
 .navbar {
-    background-color: rgb(233, 227, 227);
-    height: 2.5rem;
+    background-color: var(--primary-color);
+}
+
+.button-post {background-color: var(--verde-claro);}
+
+.padding-instagram {
+    padding-left: 100px;
+    color: var(--secondary-color);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.settings-dropdown {
+    margin-right: 200px;
+}
+
+.create-button {
+    margin-left: 732px;
 }
